@@ -1,5 +1,5 @@
 /* 代码语言显示 */
-@import './zj/fonts.css';
+@import './font/fonts.css';
 
 pre[lang$='TXT']:after,
 pre[lang$='txt']:after {

@@ -1,5 +1,5 @@
-@import url(./source/viko-blog.css);
-@import url(./source/darkcode.css);
+@import url(./viko/viko-blog.css);
+@import url(./viko/darkcode.css);
 
 :root {
     /* dy color */

@@ -1887,9 +1887,7 @@ strong {
 	display: block;
 	-webkit-overflow-scrolling: touch;
 	/* box-shadow: 0 0 6px 2px rgba(151, 151, 151, 0.9); */
-    /* border-top: rgb(51, 51, 51) solid 35px; */
-    /* border-top: var(--codeblockbg-color) solid 35px; */
-    border-top: 40px solid rgb(167, 187, 195, 0.6);
+    border-top: var(--codeblock-broder-top-color) solid 37px;
 }
 
 pre.md-fences::before {
@@ -1920,7 +1918,7 @@ pre::after {
 /* 网络图片标识 */
 .md-img-loaded[data-src*="https"]::before,
 p>.md-img-loaded[data-src*="https"]::before {
-  content: url("./zj/cloud.svg");
+  content: url("./font/cloud.svg");
   position: absolute;
   top: 5px;
   right: 0.5%;
@@ -1933,7 +1931,7 @@ p>.md-img-loaded[data-src*="https"]::before {
   /* 代码二 可以调整图标大小 */
   /* display: block;
   content: " ";
-  background-image: url("./zj/cloud.svg");
+  background-image: url("./font/cloud.svg");
   background-position: right bottom;
   background-size: 20px;
   background-repeat: no-repeat;

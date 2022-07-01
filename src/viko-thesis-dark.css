@@ -9,6 +9,7 @@
     --sidebarbg-color: #002b36; /* 侧边栏背景色 */
     --active-file-border-color: #a9a9a9; /* 侧边栏左侧选中块 */
     --focus-color: #ff5d52; /* 点击某些元素（如标题）显示的颜色 */
+    --codeblock-broder-top-color: rgb(51, 51, 51); /* 代码块顶部颜色 */
     --codeblockbg-color: #1a1a1a; /* 代码块背景色 */
     --codeblockfont-color: #a9a9a9; /* 代码块默认字体颜色 */
     --codeblockline-color: #263238; /* 代码块选中行颜色 */

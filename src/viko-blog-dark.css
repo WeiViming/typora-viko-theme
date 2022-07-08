@@ -49,7 +49,7 @@
     --detailsbg-color: #073642; /* 折叠框summary背景色 */
     --detailsborder-color: #5fa7e4; /* 折叠框边框色 */
     --body-color: #a9a9a9; /* 文本颜色 */
-    --math-color:#a9a9a9; /* 公式颜色 */
+    --math-color: cornflowerblue; /* 公式颜色 */
     --title-color: #efb752; /* 标题颜色 */
     --para-color: #a9a9a9; /* 段落文本颜色 */
     --commonstr-color: #a9a9a9; /* 常规字符串颜色 */
@@ -60,7 +60,8 @@
     --yaml-color: #7f9bb7; /* 头部YAML字体颜色 */
     /* dy font */
     /* 全局字体 */
-    --body-font: 'Source Sans Pro', '等距更纱黑体 SC', 'Helvetica Neue', Arial, sans-serif;
+    --body-font: 'Nunito Sans', PingFangSC-light, Helvetica, Arial, sans-serif;
+    /* --body-font: 'Source Sans Pro', '等距更纱黑体 SC', 'Helvetica Neue', Arial, sans-serif; */
     /* 代码块以及行内代码字体 */
     --code-font: 'JetBrains Mono'; 
 

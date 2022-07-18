@@ -74,3 +74,37 @@
 .cm-s-inner .cm-tag.cm-bracket {
   color: #abb2bf !important;
 }
+
+/* Mermaid from Autumnus */
+
+/* 箭头 */
+.arrowheadPath,
+.marker {
+    fill: var(--mermaid-color) !important;
+}
+
+.edgePath .path,
+.marker.cross,
+line,
+.flowchart-link {
+    stroke: var(--mermaid-color) !important;
+}
+
+/* 饼状图标题及图例 */
+.pieTitleText,
+.legend text {
+    fill: var(--mermaid-color-text) !important;
+}
+
+/* 箭头内文字背景 */
+.edgeLabel,
+.edgeLabel rect {
+    background-color: #ffffff00 !important;
+    fill: #ffffff00 !important;
+}
+
+/* 文本 */
+.label,
+.cluster-label {
+    color: var(--mermaid-color-text) !important;
+}

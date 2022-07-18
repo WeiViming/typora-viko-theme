@@ -16,7 +16,14 @@
 
 本主题主要参考了如下主题样式, 特此感谢.
 
-[dyzj](https://github.com/muggledy/typora-dyzj-theme)，[Haru](https://github.com/LSTM-Kirigaya/typora-haru-theme), g2, Night, [Mint](https://github.com/Y1chenYao/typora-mint-theme), NexT, [Bear](https://github.com/imageslr/typora-theme-bear)，等等…
+- [dyzj](https://github.com/muggledy/typora-dyzj-theme)
+- [Haru](https://github.com/LSTM-Kirigaya/typora-haru-theme)
+- [Mint](https://github.com/Y1chenYao/typora-mint-theme)
+- [Bear](https://github.com/imageslr/typora-theme-bear)
+- [Autumnus](https://github.com/Soanguy/typora-theme-autumnus)
+- [NexT](https://github.com/BillChen2K/typora-theme-next)
+- [Night](https://github.com/typora/typora-default-themes)
+- g2
 
 
 

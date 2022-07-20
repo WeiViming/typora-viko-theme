@@ -59,12 +59,15 @@
     --yamlbg-color: #1a1a1a; /* 头部YAML背景色 */
     --yaml-color: #7f9bb7; /* 头部YAML字体颜色 */
 
-    /* Mermaid from Autumnus */
+    /* Mermaid setting from https://support.typora.io/Draw-Diagrams-With-Markdown */
     --mermaid-color: hsl(212, 100%, 85%);
     --mermaid-color-text: hsl(0, 0%, 75%);
-    --mermaid-sequence-numbers: off;
-    -–mermaid-flowchart-curve: basis;
-    --mermaid-theme: dark;
+    --mermaid-sequence-numbers: on; /* on, off */
+    --sequence-theme: hand;
+    -–mermaid-flowchart-curve: basis; /* linear, basis, natural, step */
+    --mermaid-theme: dark;  /* base, dark, forest, neutral, night */
+    -–mermaid–gantt-left-padding: 75;
+    /* --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif; */
 
     /* dy font */
     /* 全局字体 */
@@ -72,6 +75,9 @@
     /* --body-font: 'Source Sans Pro', '等距更纱黑体 SC', 'Helvetica Neue', Arial, sans-serif; */
     /* 代码块以及行内代码字体 */
     --code-font: 'JetBrains Mono'; 
+
+    /* 引用提示块字体 */
+    --blockquote-font: 'Noto Serif SC';
 
     /* bg image */
     --bgimg-url: url(./bg-dark.gif);

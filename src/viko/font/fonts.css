@@ -275,6 +275,23 @@
        url('./nunito-sans-v12-latin-700.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'Noto Serif SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Han Serif CN'),
+       local('Source Han Serif SC'),
+       url('fonts/noto-serif-sc-v22-latin_chinese-simplified-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Serif SC';
+  font-style: bold;
+  font-weight: 700;
+  src: local('Source Han Serif CN'),
+       local('Source Han Serif SC'),
+       url('fonts/noto-serif-sc-v22-latin_chinese-simplified-700.woff2') format('woff2');
+}
 /* 链接尾部 logo */
 @font-face {
     font-family: "ITS";

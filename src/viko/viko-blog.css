@@ -480,24 +480,6 @@ h6 p {
     margin-top: 0;
 }
 
-#write ol,
-#write ul {
-    padding-left: 35px;
-    margin: .5rem 0;
-}
-
-#write ol>li>*,
-#write ul>li>* {
-    font-weight: normal;
-}
-
-#write ol>li>*:not(ol):not(ul),
-#write ul>li>*:not(ol):not(ul) {
-    padding-left: .25rem;
-}
-
-
-
 /** 引用块（提示型） **/
 
 
@@ -509,6 +491,7 @@ blockquote {
     background-color: var(--blockquotebg-color); /* white */
     border-radius: 3px;
     position:relative;
+    font-family: var(--blockquote-font);
 }
 
 /* 给提示块加info图标 */
@@ -1228,13 +1211,13 @@ footer {
     transform:rotate(360deg);
 } */
 #write ul>li:not(.tab):hover:before, #write .ul>.li:not(.tab):hover:before{
-    border-color: var(--focus-color);
-    color: var(--focus-color);
+    border-color: var(--ulol-color);
+    color: var(--ulol-color);
 }
 
 #write ol>li:not(.tab):hover:before, #write .ol>.li:not(.tab):hover:before{
-    border-color: var(--focus-color);
-    color: var(--highlight-color);
+    border-color: var(--ulol-color);
+    color: var(--ulol-color);
 }
 
 #write ol>li:before, #write .ol>.li:before {

@@ -1,78 +1,96 @@
+/* 关键字 */
 .cm-s-inner .cm-keyword {
-  color: #c678dd !important;
+  color: #c678dd;
 }
 
+/* 运算符 */
 .cm-s-inner .cm-operator {
-  color: #56b6c2 !important;
+  color: #56b6c2;
 }
 
+/* 被使用的形参 */
 .cm-s-inner .cm-variable {
-  color: #d19a66 !important;
+  color: #d19a66;
 }
 
+/* 被使用的变量名 */
 .cm-s-inner .cm-variable-2 {
-  color: #e06c75 !important;
+  color: #e06c75;
 }
 
+/* 形参,类型 */
 .cm-s-inner .cm-variable-3 {
-  color: #e06c75 !important;
+  color: #e06c75;
 }
 
+/* 被调用的属性 */
 .cm-s-inner .cm-builtin {
-  color: #e8bf6a !important;
+  color: #e8bf6a;
 }
 
+/* css属性值，布尔值等等 */
 .cm-s-inner .cm-atom {
-  color: #d19a66 !important;
+  color: #d19a66;
 }
 
+/* 数字 */
 .cm-s-inner .cm-number {
-  color: #d19a66 !important;
+  color: #d19a66;
 }
 
+/* 变量名 */
 .cm-s-inner .cm-def {
-  color: #e06c75 !important;
+  color: #e06c75;
 }
 
+/* 字符串 */
 .cm-s-inner .cm-string {
-  color: #98c379 !important;
+  color: #98c379;
 }
 
+/* 正则表达式 */
 .cm-s-inner .cm-string-2 {
-  color: #80cbc4 !important;
+  color: #80cbc4;
 }
 
+/* 注释 */
 .cm-s-inner .cm-comment {
-  color: #629755 !important;
+  color: #629755;
 }
 
+/* 标签名 */
 .cm-s-inner .cm-tag {
-  color: #e06c75 !important;
+  color: #e06c75;
 }
 
+/* 省略号,注解等 */
 .cm-s-inner .cm-meta {
-  color: #e06c75 !important;
+  color: #e06c75;
 }
 
+/* 属性 */
 .cm-s-inner .cm-attribute {
-  color: #d19a66 !important;
+  color: #d19a66;
 }
 
+/* 被调用的方法 */
 .cm-s-inner .cm-property {
-  color: #61afef !important;
+  color: #61afef;
 }
 
+/* css class */
 .cm-s-inner .cm-qualifier {
-  color: #decb6b !important;
+  color: #decb6b;
 }
 
+/* 错误 */
 .cm-s-inner .cm-error {
-  color: #fff !important;
-  background-color: #ec5f67 !important;
+  color: #fff;
+  background-color: #ec5f67;
 }
 
 .cm-s-inner .cm-tag.cm-bracket {
-  color: #abb2bf !important;
+  color: #abb2bf;
 }
 
 /* Mermaid from Autumnus */

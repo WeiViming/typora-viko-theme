@@ -58,6 +58,7 @@
     --sidelist-selected-color: #263238; /* 侧边栏条目选中背景色 */
     --yamlbg-color: #1a1a1a; /* 头部YAML背景色 */
     --yaml-color: #7f9bb7; /* 头部YAML字体颜色 */
+    --print-color: #a9a9a9;/* 导出PDF的文字颜色 */
 
     /* Mermaid setting from https://support.typora.io/Draw-Diagrams-With-Markdown */
     --mermaid-color: hsl(212, 100%, 85%);

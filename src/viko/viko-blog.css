@@ -66,11 +66,11 @@ content {
 
 
 @media only screen and (min-width: 1800px){
-    /* content {
+    content {
         background: var(--bgimg-url) no-repeat;
         background-size : 12%;
-        background-position: 98% 100%;
-    } */
+        background-position: 95% 100%;
+    }
     /*效仿https://github.com/Soanguy/typora-theme-autumnus，取消下面注释，并注释上面（content）即可，换个背景（透明）风格*/
     /*content {
         background: var(--bgimg-url) no-repeat;
@@ -95,9 +95,9 @@ content {
         border-color: #d0d5d7 !important;
     }*/
 }
-/* content #md-searchpanel {
+content #md-searchpanel {
     background: var(--bg-color);
-} */
+}
 
 /*
 @media only screen and (min-width: 1400px) {
@@ -1134,14 +1134,14 @@ footer {
         -webkit-print-color-adjust: exact;
     }
     html {
-        font-size: 16px!important;
+        font-size: 12px;
     }
     body {
         font-family: Times, 'SimSun', serif!important;
-        color: #000000!important;
+        color: var(--print-color);
     }
     p {
-        color: #000000!important;
+        color: var(--print-color);
     }
     table,
     pre {
@@ -1337,7 +1337,7 @@ details[open] {
     border-color: var(--detailsborder-color);
 }
 details[open]>summary {
-    color: #444;
+    /* color: #444; */
     margin-bottom: 0;
 }
 details[open]>summary {

@@ -57,6 +57,8 @@
     --sidelist-selected-color: #eeeeee; /* 侧边栏条目选中背景色 */
     --yamlbg-color: #f7f7f7; /* 头部YAML背景色 */
     --yaml-color: #585858; /* 头部YAML字体颜色 */
+    --print-color: #000000;/* 导出PDF的文字颜色 */
+
     /* dy font */
     /* --body-font: 'Source Sans Pro', '等距更纱黑体 SC', 'Helvetica Neue', Arial, sans-serif;  */
     --body-font: 'Nunito Sans', PingFangSC-light, Helvetica, Arial, sans-serif;

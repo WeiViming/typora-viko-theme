@@ -539,11 +539,12 @@ blockquote {
     background-color: var(--blockquotebg-color); /* white */
     border-radius: 3px;
     position:relative;
+    font-family: var(--blockquote-font);
 }
 
 /* 给提示块加info图标 */
 blockquote>* {
-    margin-left: 2rem !important;
+    margin-left: 2rem;
 }
 blockquote::before {
     content: '\e613';
@@ -688,7 +689,7 @@ div[alt="notitle-table"] table tr th, div[alt="notitle-table"] table tr td {
 	padding: 0.6rem;
 	background-color: var(--codeblockbg-color);
 	border-radius: 0.4rem;
-	/* box-shadow: 0.15rem 0.15rem 0.5rem rgb(150, 150, 150); */
+	box-shadow: 0.15rem 0.15rem 0.5rem rgb(150, 150, 150);
 }
 #write .cm-s-inner .CodeMirror-gutters {
 	border: none;
@@ -728,11 +729,11 @@ div[alt="notitle-table"] table tr th, div[alt="notitle-table"] table tr td {
 }
 
 /* 行号左框线 */
-/*
-#write .CodeMirror-gutters {
+
+/* #write .CodeMirror-gutters {
     border-right: 1px solid rgba(204, 51, 0);
-}
-*/
+} */
+
 
 /* 代码块行号颜色 */
 .cm-s-inner .CodeMirror-linenumber {
@@ -757,7 +758,7 @@ div[alt="notitle-table"] table tr th, div[alt="notitle-table"] table tr td {
     padding-left: 0 !important;
 }
 
-/* 蓝色行内数学公式 */
+/* 行内数学公式 */
 
 [md-inline='inline_math'] {
     color: var(--math-color);
@@ -771,6 +772,11 @@ div[alt="notitle-table"] table tr th, div[alt="notitle-table"] table tr td {
     font-size: 100%;
 }
 
+/* 修复列表环境中公式的颜色 */
+.MathJax_SVG_Display svg{
+    /* max-width: 100% !important; */
+    color: var(--math-color);
+}
 
 /* 修复行间公式在手机端屏幕宽度较小时公式极端缩小的问题，但是打印为pdf时仍要设为100%，否则有滚动条 */
 @media only screen and (max-width: 800px) {
@@ -781,11 +787,11 @@ div[alt="notitle-table"] table tr th, div[alt="notitle-table"] table tr td {
 
 /* 头部YAML格式 */
 pre.md-meta-block {
-    font-family: "Poppins";
+    font-family: Arial, Helvetica, sans-serif;
     color: var(--yaml-color) !important;
     padding: 15px;
     background: var(--yamlbg-color) !important;
-    /*border: 1px grey dashed !important;*/
+    border: 1px grey dashed !important;
     font-size: 0.8rem;
     line-height: 1.45;
     border-radius: 5px;
@@ -955,25 +961,6 @@ hr {
     height: inherit !important;
 }
 
-
-
-/* @media print {
-    html {
-        font-size: 13px;
-    }
-    table,
-    pre {
-        page-break-inside: avoid;
-    }
-    pre {
-        word-wrap: break-word;
-    }
-} */
-
-/* .md-fences {
-    background-color: #f8f8f8;
-} */
-
 #write pre.md-meta-block {
     /* padding: 1rem; */
     font-size: 85%;
@@ -1081,7 +1068,6 @@ details pre {
 
 #write{
     counter-reset: imgNum;
-    /* counter-reset: tableNum; */
 }
 
 /* 图片自动编号 */
@@ -1095,18 +1081,6 @@ details pre {
     margin-top: 8px !important;
     font-size: small;
 }
-
-/* 表格自动编号 */
-/* #write figure:after{
-    counter-increment: tableNum;
-    font-family: var(--body-font);
-    content: "表" counter(tableNum) attr(alt) !important;
-    text-align: center;
-    width: 100%;
-    display: inline-block;
-    margin-top: 8px !important;
-    font-size: small;
-} */
 
 div[alt="fig"]{
     font-size: small;
@@ -1414,6 +1388,9 @@ footer {
     }
     .MathJax_SVG_Display svg{
         max-width: 100% !important;
+    }
+    mjx-container[jax="SVG"] > svg {
+        color: var(--math-color);
     }
 }
 
@@ -1919,4 +1896,3 @@ p>.md-img-loaded[data-src*="https"]::before {
   background-repeat: no-repeat;
   z-index: 99; */
 }
-
